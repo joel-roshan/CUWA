@@ -1,0 +1,157 @@
+.contact-main
+{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50vw;
+}
+.container
+{
+    width: 43vw;
+    min-height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 20px 60px;
+}
+.right
+{
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50vw;
+}
+.container1
+{
+    
+    min-height: 600px;
+    width: 40vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+}
+.text
+{
+    font-size: 2.5rem;
+    color: white;
+    line-height: 2;
+    font-weight: 700;
+}
+.blue
+{
+    color: #028bd2;
+
+}
+.input-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.input
+{
+    border:none;
+    border-bottom: 1px solid black;
+    transform: 0.3s
+}
+label
+{
+    font-size: 1rem;
+    color: black;
+    
+}
+.contact-title
+{
+    font-size: 3rem;
+    color:#028bd2;
+    font-weight: 700;
+}
+.contact-text
+{
+    color: #717171;
+}
+.input:focus
+{
+    outline: none;
+    border-bottom: 3px solid #028bd2;
+}
+.btn
+{
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.btn-holder
+{
+    display: flex;
+    justify-content: flex-end;
+}
+@media(max-width: 768px)
+{
+    .contact-main{
+        flex-direction: column;
+    }
+    .left
+    {
+        width: 100vw;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .right
+    {
+        width: 100vw;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .container
+    {
+        width: 80vw;
+        min-height: 0;
+        padding: 20px 20px;
+        border-radius: 5px 5px 0 0;
+    }
+    .container1
+    {
+        width: 80vw;
+        min-height:0;
+        padding: 20px 20px;
+        border-radius: 0px 0px 5px 5px;
+        
+    }
+    .text
+    {
+        font-size: 1.75rem;
+    }
+    .contact-title
+    {
+        font-size: 2rem;
+    }
+    .contact-text
+    {
+        font-size: 0.75rem;
+    }
+    .btn-holder
+    {
+        justify-content: center;
+    }
+    .label
+    {
+        font-size: 0.75rem;
+    }
+}

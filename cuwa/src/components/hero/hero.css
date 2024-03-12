@@ -1,0 +1,146 @@
+.hero
+{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+    color: black;
+}
+.container
+{   min-width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10vw;
+    padding-left: 40px;
+}
+.span
+{
+    color: #028bd2;
+}
+.right
+{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.heroimg
+{
+    min-height:100vh;
+    width: auto;
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.leftcontainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.title
+{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.contents
+{
+    font-size: 1.5rem;
+}
+.buttons
+{
+    display: flex;
+    gap: 20px;
+}
+.contact
+{
+    background-color: #42b2e5;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+    border: none;
+}
+.whatsapp
+{
+    background-color: #27d366;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+.contact:hover
+{
+    background-color: #2e9ed8;
+}
+.whatsapp:hover
+{
+    background-color: #17a74c;
+}
+@media (max-width:1000px)
+{
+    .hero
+    {
+        min-height: 80vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* padding-top:50px;
+        padding-bottom: 50px; */
+    }
+    .container
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 40px;
+    }
+    .right
+    {
+        display: none;
+    }
+    .left
+    {
+        min-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroimg
+    {
+        width: 100%;
+        height: auto;
+    }
+    .leftcontainer
+    {
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .title
+    {
+        font-size: 2rem;
+    }
+    .contents
+    {
+        font-size: 1rem;
+    }
+    .buttons
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contact
+    {
+        padding: 5px 10px;
+    }
+    .whatsapp
+    {
+        padding: 5px 10px;
+    }
+}

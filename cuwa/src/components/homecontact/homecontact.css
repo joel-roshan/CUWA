@@ -1,0 +1,65 @@
+.contactmain
+{
+    background-image: url("../../assets/homecontactbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    background-color: white;
+    padding: 50px 100px;
+    width: 1000px;
+    max-width: 80vw;
+    margin: 100px 0;
+    gap: 20px;
+}
+.heading
+{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #38464d;
+}
+span
+{
+    color: #1897d6;
+}
+.content
+{
+    font-size: 1rem;
+}
+.contactbtn
+{
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+}
+
+@media (max-width:1000px)
+{
+    .contact-container
+    {
+        padding: 50px 20px;
+    }
+    .heading
+    {
+        font-size: 2rem;
+    }
+    .content
+    {
+        font-size: 0.75rem;
+    }
+    .contactbtn
+    {
+        padding: 5px 10px;
+    }
+}

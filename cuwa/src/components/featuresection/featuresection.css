@@ -1,0 +1,23 @@
+.featurescontainer
+{
+    display: flex;
+    gap: 30px;
+    padding: 100px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(
+        to bottom,
+        black 0%,
+        black 50%,
+        white 50%,
+        white 100%
+      );
+    }
+
+    @media (max-width:1000px)
+    {
+        .featurescontainer
+        {
+            gap: 50px;
+        }
+    }

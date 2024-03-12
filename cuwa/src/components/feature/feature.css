@@ -1,0 +1,54 @@
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+.cardbody
+{
+    width: 300px;
+    height: 370px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding:30px 30px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,1);
+}
+.icon
+{
+    width: 50px;
+    height: 50px;
+}
+.cardtitle
+{
+    font-size: 1.25rem;
+    color: #42b2e5;
+    font-weight: 700;
+}
+
+@media (max-width:1000px)
+{
+    .cardbody
+    {
+        width: 250px;
+        height: 325px;
+        padding: 20px 20px;
+        font-size: 0.9rem;
+    }
+    .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+    .cardtitle
+    {
+        font-size: 1rem;
+    }
+}

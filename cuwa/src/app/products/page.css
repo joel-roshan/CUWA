@@ -1,0 +1,36 @@
+.title
+{
+    color: #028bd2;
+    font-size: 2.5rem;
+    
+    padding: 30px;
+    padding-top: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px;
+    padding-top: 100px;
+    min-width: 100vw;
+}
+@media (max-width: 1000px)
+{
+    .container
+    {
+        padding: 50px;
+        
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .title{
+        font-size: 2rem;
+        padding-bottom: 0px;
+        
+    }
+}

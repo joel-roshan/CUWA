@@ -1,0 +1,189 @@
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 75px;
+    gap: 100px;
+}
+.mission
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ececec;
+    padding: 100px 75px;
+    gap: 100px;
+}
+.title
+{
+    font-size: 2.5rem;
+}
+.text
+{
+    color: #636363;
+}
+.aboutimg1
+{
+    width: 3000px;
+    height: auto;
+}
+.right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightcontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
+.leftcontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    gap: 20px;
+}
+.left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutimg2
+{
+    width: 1500px;
+    height: auto;
+}
+@media (max-width:1000px)
+{
+    .about
+    {
+        flex-direction: column-reverse;
+        
+        padding: 50px 20px;
+    }
+    .mission
+    {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .aboutimg1
+    {
+        width: 100%;
+    }
+    .aboutimg2
+    {
+        width: 100%;
+    }
+    .rightcontainer
+    {
+        width: 100%;
+    }
+    .leftcontainer
+    {
+        width: 100%;
+    }
+    .title
+    {
+        font-size: 2rem;
+    }
+    .text
+    {
+        font-size: 0.75rem;
+    }
+    .right
+    {
+        gap: 20px;
+    }
+    .left
+    {
+        gap: 20px;
+    }
+    .aboutimg1
+    {
+        width: 100%;
+    }
+    .aboutimg2
+    {
+        width: 100%;
+    }
+    .aboutimg1
+    {
+        width: 100%;
+    }
+    .aboutimg2
+    {
+        width: 100%;
+    }
+    .rightcontainer
+    {
+        width: 100%;
+    }
+    .leftcontainer
+    {
+        width: 100%;
+    }
+    .title
+    {
+        font-size: 2rem;
+    }
+    .text
+    {
+        font-size: 0.75rem;
+    }
+    .right
+    {
+        gap: 20px;
+    }
+    .left
+    {
+        gap: 20px;
+    }
+    .aboutimg1
+    {
+        width: 100%;
+    }
+    .aboutimg2
+    {
+        width: 100%;
+    }
+    .aboutimg1
+    {
+        width: 100%;
+    }
+    .aboutimg2
+    {
+        width: 100%;
+    }
+    .rightcontainer
+    {
+        width: 100%;
+    }
+    .leftcontainer
+    {
+        width: 100%;
+    }
+    .title
+    {
+        font-size: 2rem;
+    }
+    .text
+    {
+        font-size: 0.75rem;
+    }
+    .right
+    {
+        gap: 20px;
+    }
+    .left
+    {
+        gap: 20px;
+    }
+}
