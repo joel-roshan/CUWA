@@ -3,8 +3,8 @@ import "./productcard.css"
 const productcard = (props) => {
   return (
     <div className='productcard'>
-        <p className="capacity">1 L</p>
-        <p className="name">ocean</p>
+        <p className="capacity">{props.capacity}</p>
+        <p className="name">{props.name}</p>
     </div>
   )
 }

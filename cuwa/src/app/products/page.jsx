@@ -6,15 +6,36 @@ const page = () => {
     <div className='main'>
         <h2 className='title'>Products</h2>
         <div className="container">
-        <Productcard/>
-        <Productcard/>
-        <Productcard/>
-        <Productcard/>
-        <Productcard/>
+        <Productcard
+          capacity="1 L"
+          name="OCEAN"
+        />
+        <Productcard
+          capacity="1 L"
+          name="DELIGHT"
+        />  
+        <Productcard
+        capacity="1 L"
+        name="HULK"
+        />
+        <Productcard
+          capacity="500 mL"
+          name="FORSTY"
+        />
+        <Productcard
+        capacity="500 mL"
+        name="DELIGHT HANDY"
+        />
 
-        <Productcard/>
+        <Productcard
+        capacity="300 mL"
+        name="FORSTY DWARF"
+        />
 
-        <Productcard/>
+        <Productcard
+          capacity="300 mL"
+          name="CHILL SIP"
+        />
 
         
         </div>

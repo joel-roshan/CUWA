@@ -15,8 +15,8 @@ const hero = () => {
               <p>CUWA - Where Every Customized Bottle<br/> Tells a Unique Brand Story.</p>
             </div>
             <div className="buttons">
-              <button className="contact">Contact Us</button>
-              <button className="whatsapp">WhatsApp Us</button>
+              <a href="/contact"><button className="contact">Contact Us</button></a>
+              <a href="https://wa.me/919544084244"target="_blank"><button className="whatsapp">WhatsApp Us</button></a>
             </div>
           </div>
         </div>

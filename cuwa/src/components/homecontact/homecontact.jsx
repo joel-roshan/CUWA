@@ -15,7 +15,7 @@ const homecontact = () => {
           In a world where every detail matters, our personalized water bottles stand as a testament to your unique identity. Whether for grand events, trendy restaurants, luxurious hotels, or chic shops, our bottles not only carry refreshment but also bear the mark of your distinctive brand.
         </div>
         
-            <button className="contactbtn">Contact Us</button>
+            <a href="/contact"><button className="contactbtn">Contact Us</button></a>
         
       </div>
     </div>

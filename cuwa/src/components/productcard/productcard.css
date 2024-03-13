@@ -3,8 +3,8 @@
     background-image: url("../../assets/ocean1.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 200px;
-    height: 250px;
+    width: 240px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,14 +14,30 @@
 .name
 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     text-align: right;
 }
 .capacity
 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     text-align: left;
+}
+@media (max-width:768px)
+{
+    .productcard
+    {
+        width: 200px;
+        height: 250px;
+    }
+    .name
+    {
+        font-size: 1rem;
+    }
+    .capacity
+    {
+        font-size: 1rem;
+    }
 }

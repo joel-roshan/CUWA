@@ -1,0 +1,323 @@
+/* .main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width: 100vw;
+   
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+    width: 100vw;
+    background-color: white;
+
+    border-bottom: 1px solid black;
+    box-shadow: 0px 5px 10px -5px;
+    padding: 20px;
+}
+.logo
+{
+    width: 100px;
+    height: auto;
+}
+.left
+{
+    display: flex;
+    align-items: center;
+}
+.right
+{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-right: 50px;
+}
+.contactbtn
+{
+    background-color: #7fa2ff;
+    border-radius: 30px;
+    padding: 10px 16px;
+    border: none;
+    font-size: 1.5rem;
+}
+.mobnav
+{
+    display: none;
+}
+
+@media (max-width:1000px)
+{
+    .container
+    {
+        display: none;
+    }
+    .mobnav
+    {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 5px 10px -5px;
+        padding: 10px 0px;
+    }
+    .holder
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        align-items: center;
+        padding: 0px 10px;
+        background-color: white;
+        backdrop-filter: blur(100px);
+    }
+    .moblogo
+    {
+        width: 100px;
+        height: auto;
+    }
+    .mobtitle
+    {
+        color: #7fa2ff;
+    }
+    .links
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding-top:10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 0px;
+        padding-bottom: 30px;
+
+    }
+    .link
+    {
+        font-size: 0.8rem;
+    }
+    .hambtn
+    {
+        background-color: transparent;
+        border: none;
+    }
+    
+} */
+
+
+/* .navbody
+{
+    width: 100vw;
+   
+    z-index: 1000;
+}
+.navcontainer
+{   width: 100vw;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+}
+.navlinks
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    width: 50vw;
+}
+.linktext
+{
+    text-decoration: none;
+}
+.navbtn
+{
+    border-radius: 62.4375rem;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.04);
+    padding: 0.5rem 1.5rem;
+}
+@media (max-width: 768px)
+{
+    .navbody{
+        display: none;
+    }
+} */
+
+h2 {
+    vertical-align: center;
+    text-align: center;
+  }
+  
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+  .navbtn
+  {
+      border-radius: 62.4375rem;
+      border: 1px solid rgba(255, 255, 255, 0.10);
+      background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.04);
+      padding: 0.5rem 1.5rem;
+  }
+  
+  
+  * {
+    
+    box-sizing: border-box;
+  }
+  
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #000;
+    height: 50px;
+    padding: 2rem 7rem;
+    padding-top: 2.5rem;
+    border-bottom: 1px solid #444;
+    box-shadow: 0px 5px 10px -5px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+  }
+  
+  .menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+  }
+  
+  .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: #000;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  .navlogo
+  {
+      width: 100px;
+      height: auto;
+  }
+  
+  @media (max-width: 900px) {
+    .top-nav{
+      padding: 1em;
+      background-color: white;
+      
+    }
+      .navbtn
+      {
+          display: none;
+      }
+      .navlogo
+  {
+      width: 75px;
+      height: auto;
+  }
+  
+    .menu-button-container {
+      display: flex;
+    }
+    .menu {
+      position: absolute;
+      top: 0;
+      margin-top: 50px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      gap: 0px;
+      box-shadow: 0px 5px 10px -5px;
+    }
+    #menu-toggle ~ .menu li {
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      
+    }
+    #menu-toggle:checked ~ .menu li {
+      border: none;
+      height: 2.5em;
+      padding: 0.5em;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .menu > li {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+      color: black;
+      background-color: transparent;
+    }
+    .menu > li:not(:last-child) {
+      border-bottom: 1px solid black;
+    }
+  } 

@@ -9,7 +9,7 @@ const footer = () => {
   return (
     <div className='footer'>
       <div className="footerlogo">
-        <Image className="logo" src={Cuwalogo} alt="cuwalogo"/>
+        <a href="/"><Image className="logo" src={Cuwalogo} alt="cuwalogo"/></a>
       </div>
       <div className="socials">
         <p className='follow'>Follow us on</p>
