@@ -26,7 +26,7 @@
 }
 .aboutimg1
 {
-    width: 3000px;
+    width: 2000px;
     height: auto;
 }
 .right
@@ -59,7 +59,7 @@
 }
 .aboutimg2
 {
-    width: 1500px;
+    width: 3000px;
     height: auto;
 }
 @media (max-width:1000px)

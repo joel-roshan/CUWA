@@ -8,7 +8,7 @@ const page = () => {
     <div>
       <div className="about">
         <div className="left">
-            <Image className="aboutimg1" src={Aboutimg} alt="about image"/>
+            <Image className="aboutimg1" src={Missionimg} alt="about image"/>
         </div>
         <div className="right">
           <div className="rightcontainer">
@@ -25,7 +25,7 @@ const page = () => {
          </div>
         </div>
         <div className="right">
-            <Image src={Missionimg} className='aboutimg2' alt="about image"/>
+            <Image src={Aboutimg} className='aboutimg2' alt="about image"/>
         </div>
       </div>
     </div>

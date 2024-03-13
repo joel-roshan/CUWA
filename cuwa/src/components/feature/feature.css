@@ -8,8 +8,8 @@
 .cardbody
 {
     width: 300px;
-    height: 370px;
-    border-radius: 10px;
+    height: 330px;
+    border-radius: 15px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,8 @@
     gap: 10px;
     padding:30px 30px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,1);
+    color: #636363;
+    font-size:0.9rem;
 }
 .icon
 {
@@ -38,9 +40,9 @@
     .cardbody
     {
         width: 250px;
-        height: 325px;
+        height: 300px;
         padding: 20px 20px;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .icon
     {
