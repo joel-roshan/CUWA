@@ -86,7 +86,7 @@
 {
     background-color: #17a74c;
 }
-@media (max-width:1000px)
+@media (max-width:768px)
 {
     .hero
     {
@@ -118,6 +118,7 @@
         height: auto;
         min-height: 0px;
         display: none;
+        
     }
     .leftcontainer
     {

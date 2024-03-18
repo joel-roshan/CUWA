@@ -27,10 +27,10 @@ const page = () => {
       </div>
       <div className="right">
         <div className="container1">
-            <p className='text'>Pouring happiness
-            into every bottle.
+            <p className='text'>Pouring happiness<br/>
+            into every bottle.<br/>
             <span className="blue">Customize </span>
-             your
+             your<br/>
             bliss!!!
             </p>
         </div>

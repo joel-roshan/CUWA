@@ -101,7 +101,7 @@ const Navbar = () => {
       </div> */}
        <section className="top-nav">
     <div>
-    <Image className="navlogo"src={Navlogo} alt="" />
+    <a href="/"><Image className="navlogo"src={Navlogo} alt="" /></a>
     </div>
     <input id="menu-toggle" type="checkbox" />
     <label className='menu-button-container' for="menu-toggle">

@@ -1,10 +1,11 @@
 import React from 'react'
 import "./page.css"
 import Productcard from "../../components/productcard/productcard"
+import Ocean from "../../assets/ocean1.svg"
 const page = () => {
   return (
     <div className='main'>
-        <h2 className='title'>Products</h2>
+        <h2 className='title'>Our Products</h2>
         <div className="container">
         <Productcard
           capacity="1 L"

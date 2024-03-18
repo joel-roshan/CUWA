@@ -1,7 +1,7 @@
 .featurescontainer
 {
     display: flex;
-    gap: 30px;
+    gap: 3vw;
     padding: 100px 20px;
     flex-wrap: wrap;
     justify-content: center;

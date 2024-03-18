@@ -1,40 +1,50 @@
 .productcard
 {
-    background-image: url("../../assets/ocean1.svg");
+    /* background-image: url("../../assets/ocean1.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 240px;
-    height: 300px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 20px 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 7px 7px 1px black;
+    height: auto;
+
+}
+.productimg
+{
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 300px;
+    margin-bottom: 10px;
 }
 .name
 {
-    color: white;
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-align: right;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 900;
+    text-align: center;
 }
 .capacity
 {
-    color: white;
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-align: left;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
 }
 @media (max-width:768px)
 {
     .productcard
     {
-        width: 200px;
-        height: 250px;
+        width: 150px;
     }
     .name
     {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .capacity
     {

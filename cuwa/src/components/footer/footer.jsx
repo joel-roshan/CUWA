@@ -5,6 +5,7 @@ import Cuwalogo from "../../assets/cuwalogowhite.svg"
 import { BsTwitterX } from "react-icons/bs";
 import { CiFacebook } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
 const footer = () => {
   return (
     <div className='footer'>
@@ -14,9 +15,10 @@ const footer = () => {
       <div className="socials">
         <p className='follow'>Follow us on</p>
         <div className="icons">
-        <CiFacebook size={20}/>
-        <FaInstagram />
-        <BsTwitterX />
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=61557335401483&is_tour_dismissed=true"><CiFacebook size={20}/></a>
+        <a target="_blank" href="https://www.instagram.com/cuwa.in?igsh=YjUxZG9keGdmaXd1"><FaInstagram /></a>
+        <a target="_blank" href="https://twitter.com/cuwaindia"><BsTwitterX /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/cuwa-in-4806542ba/"><CiLinkedin size={20}/></a>
         </div>
         </div>
         <div className="address">

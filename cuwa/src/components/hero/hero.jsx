@@ -2,6 +2,7 @@ import React from 'react'
 import "./hero.css"
 import Image from 'next/image'
 import Heroimg from "../../assets/heroimg.png"
+import Mobhero from "../../assets/mobimg.jpg"
 const hero = () => {
   return (
     <div className='hero'>
@@ -24,6 +25,7 @@ const hero = () => {
           <Image className="heroimg" src={Heroimg}/>
         </div>
       </div>
+      {/* <div className="mobimg"><Image src={Mobhero}/></div> */}
     </div>
   )
 }
