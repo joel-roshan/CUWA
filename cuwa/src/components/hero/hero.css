@@ -1,9 +1,12 @@
 .hero
 {
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: white;
     color: black;
+}
+.mobimg{
+    display: none;
 }
 .container
 {   min-width:100vw;
@@ -25,7 +28,7 @@
 }
 .heroimg
 {
-    min-height:100vh;
+    min-height:90vh;
     width: auto;
 }
 .left
@@ -94,16 +97,21 @@
         display: flex;
         text-align: center;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         /* padding-top:50px;
         padding-bottom: 50px; */
+    }
+    .mobimg{
+        display: flex;
+        width: 100vw;
+        height: auto;
     }
     .container
     {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0 40px;
+        padding: 0 30px;
     }
 
     .left
@@ -122,7 +130,7 @@
     }
     .leftcontainer
     {
-        gap: 10px;
+        gap: 15px;
         justify-content: center;
         align-items: center;
     }
@@ -132,12 +140,13 @@
     }
     .contents
     {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .buttons
     {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
+        font-size: 0.9rem;
     }
     .contact
     {
@@ -146,5 +155,36 @@
     .whatsapp
     {
         padding: 5px 10px;
+    }
+}
+@media(min-width:1600px)
+{
+    .hero
+    {
+        max-height: 90vh;
+    }
+    .heroimg
+    {
+        max-height: 90vh;
+    }
+    .container
+    {
+        padding-left: 9vw;
+    }
+    .title
+    {
+        font-size: 4rem;
+    }
+    .contents
+    {
+        font-size: 2.5rem;
+    }
+    .contact
+    {
+        padding: 10px 30px;
+    }
+    .whatsapp
+    {
+        padding: 10px 30px;
     }
 }

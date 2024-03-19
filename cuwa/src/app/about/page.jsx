@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import "./page.css"
 import Aboutimg from "../../assets/aboutimg.svg"
-import Missionimg from "../../assets/missionimg.svg"
+import Missionimg from "../../assets/missionimgcropped.jpg"
 const page = () => {
   return (
     <div>

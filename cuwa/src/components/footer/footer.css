@@ -47,6 +47,19 @@
 {
     font-size: 0.75rem;
 }
+.addtittle
+{
+    font-weight: 700;
+}
+.follow
+{
+    font-weight: 700;
+}
+.contactitle
+{
+    font-weight: 700;
+
+}
 
 @media (max-width: 1000px)
 {

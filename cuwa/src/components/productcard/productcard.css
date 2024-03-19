@@ -3,7 +3,7 @@
     /* background-image: url("../../assets/ocean1.svg");
     background-repeat: no-repeat;
     background-size: cover; */
-    width: 240px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +40,7 @@
 {
     .productcard
     {
-        width: 150px;
+        width: 300px;
     }
     .name
     {
