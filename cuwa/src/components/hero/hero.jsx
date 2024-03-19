@@ -13,7 +13,7 @@ const hero = () => {
               CRAFTING <span className="blue">EXCELLENCE,</span><br/>QUENCHING <span className="blue">THIRST:</span>
             </div>
             <div className="contents">
-              <p>CUWA - Where Every Customized Bottle<br/> Tells a Unique Brand Story.</p>
+              <p>CUWA - Where Every Customised Bottle<br/> Tells a Unique Brand Story.</p>
             </div>
             <div className="buttons">
               <a href="/contact"><button className="contact">Contact Us</button></a>
@@ -24,7 +24,7 @@ const hero = () => {
         <div className='right'>
           <Image className="heroimg" src={Heroimg}/>
           <div className="mobimg"><Image src={Mobhero}/></div>
-          
+
         </div>
       </div>
     </div>

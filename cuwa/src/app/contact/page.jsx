@@ -29,7 +29,7 @@ const page = () => {
         <div className="container1">
             <p className='text'>Pouring happiness<br/>
             into every bottle.<br/>
-            <span className="blue">Customize </span>
+            <span className="blue">Customise </span>
              your<br/>
             bliss!!!
             </p>
