@@ -67,17 +67,18 @@
     .about
     {
         flex-direction: column-reverse;
-        
+        gap: 50px;
         padding: 50px 20px;
     }
     .mission
     {
         flex-direction: column;
+        gap: 50px;
         padding: 50px 20px;
     }
     .aboutimg1
     {
-        width: 100%;
+        width: 200px;
     }
     .aboutimg2
     {
@@ -107,84 +108,5 @@
     {
         gap: 20px;
     }
-    .aboutimg1
-    {
-        width: 100%;
-    }
-    .aboutimg2
-    {
-        width: 100%;
-    }
-    .aboutimg1
-    {
-        width: 100%;
-    }
-    .aboutimg2
-    {
-        width: 100%;
-    }
-    .rightcontainer
-    {
-        width: 100%;
-    }
-    .leftcontainer
-    {
-        width: 100%;
-    }
-    .title
-    {
-        font-size: 2rem;
-    }
-    .text
-    {
-        font-size: 0.75rem;
-    }
-    .right
-    {
-        gap: 20px;
-    }
-    .left
-    {
-        gap: 20px;
-    }
-    .aboutimg1
-    {
-        width: 100%;
-    }
-    .aboutimg2
-    {
-        width: 100%;
-    }
-    .aboutimg1
-    {
-        width: 100%;
-    }
-    .aboutimg2
-    {
-        width: 100%;
-    }
-    .rightcontainer
-    {
-        width: 100%;
-    }
-    .leftcontainer
-    {
-        width: 100%;
-    }
-    .title
-    {
-        font-size: 2rem;
-    }
-    .text
-    {
-        font-size: 0.75rem;
-    }
-    .right
-    {
-        gap: 20px;
-    }
-    .left
-    {
-        gap: 20px;
-    }
+    
 }
